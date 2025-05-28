@@ -1,8 +1,0 @@
-1- O que acontece se você tentar ler um arquivo que não existe?
-O Java lança uma FileNotFoundException. Para evitar que o programa quebre, é importante tratar com try-catch e informar o usuário.
-
-2-Como poderíamos melhorar esse código usando try-with-resources?
-O try-with-resources fecha automaticamente arquivos e outros recursos, mesmo se ocorrerem erros, evitando vazamentos de memória e simplificando o código.
-
-3-Como salvar e ler arquivos com separadores diferentes, como JSON ou CSV?
-Use String.split("separador") para ler e String.join("separador") para escrever.
